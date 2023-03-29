@@ -1,0 +1,14 @@
+.contact_list {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: auto;
+  gap: 10px; 
+}
+
+.contact_name {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;  
+}
