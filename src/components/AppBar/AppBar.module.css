@@ -1,8 +1,8 @@
-.app_bar {
+.app {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     padding: 20px;
-    background-color: rgb(14, 60, 90);  
+    /* background-color: rgb(14, 60, 90);   */
 }

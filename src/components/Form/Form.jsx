@@ -6,8 +6,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import s from '../Form/Form.module.css';
 
-// const notify = () => toast.success('Here is your contact.');
-
 export const Form = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(selectContact);
@@ -27,7 +25,6 @@ export const Form = () => {
 
   return (
     <div>
-      {/* <Toaster /> */}
       <form onSubmit={handleSubmit} autoComplete="off">
       <div className={s.container}>
         <TextField
